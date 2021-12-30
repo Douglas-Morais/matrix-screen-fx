@@ -5,9 +5,9 @@ const ctx = canvas.getContext("2d");
 
 let canvasWidth = window.innerWidth;
 let canvasHeight = window.innerHeight;
-let maxCharCount = 150;
+let maxCharCount = 250;
 let fallingCharArr = [];
-let fontSize = 12;
+let fontSize = 16;
 let maxColumns = canvasWidth / fontSize;
 canvas.width = canvasWidth;
 canvas.height = canvasHeight;
